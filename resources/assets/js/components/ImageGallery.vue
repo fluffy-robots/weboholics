@@ -36,10 +36,9 @@
 	.slide-enter,.slide-leave{
 		opacity: 0;
 	}
-	.gallery-container{
-	    /*display: flex;
-	    align-items: center;
-	    flex-direction: column;*/
+	.gallery-container {
+	    display: flex;
+	    justify-content: space-around;
 	}
 	.controls{
 		position: absolute;
