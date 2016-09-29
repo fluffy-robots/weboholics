@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.container-fluid {
+	padding:0px;
+}
+
+header {
+  width 100vw;
+  height: 100vh;
+  background-color: #48c7f2;
+  animation: backgroundRotation 30s infinite linear 2s;
+  display: flex;
+  justify-content: center
+}
+
+@keyframes backgroundRotation {
+  0% { background-color: #48c7f2; }
+  16.6% { background-color: #3fbf48; }
+  33.3% { background-color: #f5cc02; }
+  50% { background-color:  #f25d27; }
+  66.6% { background-color: #ea3f34; }
+  83% { background-color: #5b48d9; }
+  100% { background-color: #48c7f2; }
+}
+svg {
+  height: auto;
+  width: 60vh;
+}
+.logo-w {
+  fill: #ffffff;
+}
+.logo-letters {
+  fill: #ffffff;
+}
